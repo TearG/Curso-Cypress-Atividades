@@ -8,4 +8,5 @@ describe("The application loads", () => {
     cy.visit(hostUrl);
     cy.get(".todo-list").should("exist");
   });
-});
+})
+
